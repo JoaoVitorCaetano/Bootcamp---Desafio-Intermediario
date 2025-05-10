@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; 
+    color: #e6ddbc;
+}
+
+body {
+    background-color: #262525;
+}
+
+header {
+    background-color: #525252;
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    width: 100%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.contato {
+    width: 70px;
+    height: 40px;
+    margin-right: 50px;
+    background-color: #262525;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contato:hover {
+    transform: scale(1.1);
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+ul li {
+    cursor: pointer;
+    transition: color 0.3s; 
+}
+
+ul li:hover {
+    color: #f0c674; 
+}
+
+.foto img {
+    width: 500px; 
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.apresentação {
+    text-align: center; 
+    margin: 10px 0; 
+    position: relative;
+    top: -60px;
+}
+
+.Sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Sobre h1 {
+    margin-bottom: 20px;
+}
+
+.Sobre p {
+    width: 60%;
+    font-size: 1.2rem;
+}
+
+.conhecimentos {
+    background-color: #e6ddbc;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px ;
+}
+
+.conhecimentos h1 {
+    color: #262525;
+    position: relative;
+    top: -50px;
+    font-size: 1.8rem;
+}
+
+.conhecimentos h3 {
+    color: #262525;
+    margin-bottom: 10px;
+}
+
+.conhecimentos h4 {
+    color: #525252;
+    margin-bottom: 10px;
+}
+
+.Projetos {
+    height: 110vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+}
+
+.projeto1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projeto1 h3 {
+    font-size: 1.5rem;
+}
+
+.projeto1 p{
+    width: 70%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.projeto2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projeto2 h3 {
+    font-size: 1.5rem;
+}
+
+.projeto2 p{
+    width: 70%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Projetos img {
+    width: 450px;
+}
+
+.Contato {
+    height: 40vh;
+    background-color: #e6ddbc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Contato h3{
+    color: #262525;
+}
+
+.Contato button {
+    width: 80px;
+    height: 40px;
+    margin: 10px; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+.Contato span {
+    color: #262525;
+}
+
+.Email {
+    background-color: #ff0000;
+}
+
+.Linkedin {
+    background-color: #0688ce; 
+}
+
+.GitHub {
+    background-color: #333; 
+}
+
+.Email:hover, .LinkedIn:hover, .GitHub:hover {
+    opacity: 0.8; 
+}
